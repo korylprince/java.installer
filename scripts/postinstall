@@ -1,0 +1,5 @@
+#!/bin/bash
+
+installer -pkg /usr/share/java.installer/java.pkg -target /
+
+exit 0;
