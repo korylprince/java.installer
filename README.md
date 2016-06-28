@@ -10,8 +10,8 @@ The default Java package distributed by Oracle doesn't correctly identify the ve
 
 First install [pkggen](https://github.com/korylprince/pkggen) into your `$PATH`:
 
-	sudo curl https://raw.githubusercontent.com/korylprince/pkggen/master/pkggen -o /usr/bin/pkggen
-	sudo chmod +x /usr/bin/pkggen
+	sudo curl https://raw.githubusercontent.com/korylprince/pkggen/master/pkggen -o /usr/local/bin/pkggen
+	sudo chmod +x /usr/local/bin/pkggen
 
 Next download the latest Java and extract the pkg from the dmg. Now clone this repo and do magic:
 
